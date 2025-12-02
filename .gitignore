@@ -1,0 +1,63 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyTorch model files
+*.pth
+*.pt
+checkpoints/
+saved_models/
+
+# Data files (if you add large datasets)
+data/
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Logs
+logs/
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Results and outputs (optional - uncomment if needed)
+# results/
+# figures/
+# outputs/
+
+# Environment variables
+.env
+.env.local
